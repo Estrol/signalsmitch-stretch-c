@@ -1,6 +1,8 @@
 #define SIGNALSMITH_STRETCH_IMPLEMENTATION
 #include "./signalsmith-stretch/signalsmith-stretch.h"
 
+#include "signalsmith-stretch-c-wrapper.h"
+
 struct signalsmith_stretch {
     signalsmith::stretch::SignalsmithStretch stretch;
 };
